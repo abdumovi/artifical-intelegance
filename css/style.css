@@ -281,3 +281,7 @@ button{
 .slick-dots li.slick-active button {
   background-color: #FFFFFF;
 }
+.slider{
+  overflow: hidden;
+  margin-bottom: 50px !important;
+}
