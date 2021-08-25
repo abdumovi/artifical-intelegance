@@ -165,12 +165,14 @@
     border: 0;
     outline: none;
     background: #2C3647;
+   
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
     outline: none;
 }
+
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before
 {
@@ -196,7 +198,7 @@
 }
 .slick-dots li.slick-active button:before
 {
-    background-color:#fff !important;
+  
 }
 .slick-initialized .slick-slide{
     margin-left: 33px;
@@ -206,4 +208,7 @@
 }
 .slick-dots li.slick-active button:before {
  background-color: #fff !important;   
+}
+.slick-dots li.slick-active button{
+    background: #232831 !important;
 }
